@@ -1,0 +1,27 @@
+:root {
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+
+  --main-bg: hsl(217, 54%, 11%);
+  --card-bg: hsl(216, 50%, 16%);
+  --White: hsl(0, 0%, 100%);
+}
+
+
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: var(--main-bg);
+}
+
+.my-card{
+  max-width: 400px;
+  background-color: var(--card-bg);
+}
+.my-card img{
+  width: 100%;
+}
+
+.card-footer img{
+  width: 40px;
+  height: 40px;
+}
